@@ -1,6 +1,4 @@
-以下是angular 的英雄列表教程。
-后续也会添加新功能。
-# AngularTourOfHeroes
+该项目是基于AngularTourOfHeroes（ng官网入门教程）项目开始的。
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
@@ -8,22 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+该项目的更新及记录：（此处版本记录仅作为我的开发历程）
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+v1.0： 学习并创建 英雄列表 项目。
 
-## Build
+v1.1: 将该项目中原本使用的css 修改为使用scss。
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+v1.2: 安装ngx-dnd 模块，预备后续做拖拽功能。
 
-## Running unit tests
+v1.3: 将同一组件内容放在同一文件夹内。
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+v1.4: 预备实现懒加载模块的功能。
