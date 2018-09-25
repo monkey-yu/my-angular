@@ -9,7 +9,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { NgxDnDModule } from '@swimlane/ngx-dnd'; 
 import { AppComponent } from './app.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import {HeroesComponent} from './heroes/heroes.component';
+// import {HeroesComponent} from './heroes/heroes.component';
 import { HeroService } from './heroes/hero.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
@@ -19,8 +19,8 @@ import { PanelComponent } from './panel/panel.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeroDetailComponent,
-    HeroesComponent,
+    // HeroDetailComponent,
+    // HeroesComponent,
     DashboardComponent,
     PanelComponent
   ],
