@@ -8,14 +8,13 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 import { NgxDnDModule } from '@swimlane/ngx-dnd'; 
 import { AppComponent } from './app.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import {HeroesComponent} from './heroes.component';
-import { HeroService } from './hero.service';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import {HeroesComponent} from './heroes/heroes.component';
+import { HeroService } from './heroes/hero.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { PanelComponent } from './panel/panel.component';
-
 
 @NgModule({
   declarations: [
