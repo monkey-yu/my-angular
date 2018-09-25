@@ -1,3 +1,5 @@
+以下是angular 的英雄列表教程。
+后续也会添加新功能。
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
