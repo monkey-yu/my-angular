@@ -20,3 +20,5 @@ v1.4: 实现懒加载模块的功能(保留dashboard页未使用懒加载，以�
 
   以heroes 页为例： （1）添加heroes.module.ts文件导出HeroesModule ; (2)app-routing 页去掉heroesComponent的引入，将url后的配置改为 loadChildren ; (3) 将app.module 页的heroesComponent 注释，不需要declartion. 
 
+v1.5: 添加panel页，实现拖拽功能。并且安装了primeng 和font-awesome插件。 
+  参考链接https://github.com/swimlane/ngx-dnd/blob/master/projects/swimlane/ngx-dnd/src/lib/components/item/item.component.ts
