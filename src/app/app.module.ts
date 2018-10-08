@@ -1,4 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule} from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule} from '@angular/forms';
 import { RouterModule } from '@angular/router';
@@ -16,6 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PanelComponent } from './panel/panel.component';
 
+import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,11 +29,13 @@ import { PanelComponent } from './panel/panel.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     InMemoryWebApiModule.forRoot(InMemoryDataService),
     AppRoutingModule,
-    NgxDnDModule
+    NgxDnDModule,
+    AccordionModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]
