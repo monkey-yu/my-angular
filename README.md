@@ -22,3 +22,5 @@ v1.4: 实现懒加载模块的功能(保留dashboard页未使用懒加载，以�
 
 v1.5: 添加panel页，实现拖拽功能。并且安装了primeng 和font-awesome插件。 
   参考链接https://github.com/swimlane/ngx-dnd/blob/master/projects/swimlane/ngx-dnd/src/lib/components/item/item.component.ts
+
+v1.6:添加一二级导航，和路由处理，以及换一种方式的懒加载 。
