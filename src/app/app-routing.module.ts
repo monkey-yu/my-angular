@@ -1,14 +1,13 @@
-import { NgModule } from '@angular/core';
+import { NgModule,ModuleWithProviders } from '@angular/core';
 import { RouterModule,Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { PanelComponent } from './panel/panel.component';
+// 项目内 模块
+import { MainModule } from './main/main.module';
 
+export function loadMainModule(){ return MainModule;}
 const routes:Routes = [
-    { path:'',redirectTo:'/dashboard',pathMatch:'full'},
-    { path: 'dashboard',component:DashboardComponent},
-    { path:'heroes',loadChildren:'./heroes/heroes.module#HeroesModule' },
-    { path:'herodetail/:id',loadChildren:'./hero-detail/hero-detail.module#HeroDetailModule'},
-    { path:'panel',component:PanelComponent}
+    { path:'',redirectTo:'main',pathMatch:'full'},
+    { path: 'main',loadChildren:loadMainModule},
+    
 ];
 
 @NgModule({
@@ -17,3 +16,4 @@ const routes:Routes = [
 })
 
 export class AppRoutingModule{}
+// export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
