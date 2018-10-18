@@ -1,4 +1,5 @@
 
+
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
@@ -13,7 +14,7 @@ import { MainModule } from './main/main.module';
 import { AppComponent } from './app.component';
 import { HeroService } from './heroes/hero.service';
 import { AppRoutingModule } from './app-routing.module';
-
+import { PrimengModule } from './primeng/primeng.module';
 
 @NgModule({
   declarations: [
@@ -26,8 +27,10 @@ import { AppRoutingModule } from './app-routing.module';
     InMemoryWebApiModule.forRoot(InMemoryDataService),
     AppRoutingModule,
     AccordionModule,
+
     
-    MainModule
+    MainModule,
+    PrimengModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]
